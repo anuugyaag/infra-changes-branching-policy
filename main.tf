@@ -9,3 +9,11 @@ output "project_name" {
 output "environment" {
   value = "Development"
 }
+
+output "region" {
+  value = "eu-north-1"
+}
+
+output "change_description" {
+  value = "Infrastructure updated through feature branch"
+}
